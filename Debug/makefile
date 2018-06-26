@@ -47,38 +47,38 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_FLASH += \
-Capture_K20_V00_R00.bin \
+edge_capture_MK20DN512VMC10.bin \
 
 SECONDARY_SIZE += \
-Capture_K20_V00_R00.siz \
+edge_capture_MK20DN512VMC10.siz \
 
 
 # All Target
-all: Capture_K20_V00_R00.elf secondary-outputs
+all: edge_capture_MK20DN512VMC10.elf secondary-outputs
 
 # Tool invocations
-Capture_K20_V00_R00.elf: $(OBJS) $(USER_OBJS)
+edge_capture_MK20DN512VMC10.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C++ Linker'
-	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto -Wall -Wextra  -g3 -T "../MK20DN512xxx10_flash.ld" -Xlinker --gc-sections -Wl,-Map,"Capture_K20_V00_R00.map" --specs=nano.specs -specs=nosys.specs -Xlinker -z -Xlinker muldefs -o "Capture_K20_V00_R00.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O3 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -flto -Wall -Wextra  -g3 -T "../MK20DN512xxx10_flash.ld" -Xlinker --gc-sections -Wl,-Map,"edge_capture_MK20DN512VMC10.map" --specs=nano.specs -specs=nosys.specs -Xlinker -z -Xlinker muldefs -o "edge_capture_MK20DN512VMC10.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-Capture_K20_V00_R00.bin: Capture_K20_V00_R00.elf
+edge_capture_MK20DN512VMC10.bin: edge_capture_MK20DN512VMC10.elf
 	@echo 'Invoking: Cross ARM GNU Create Flash Image'
-	arm-none-eabi-objcopy -O binary "Capture_K20_V00_R00.elf"  "Capture_K20_V00_R00.bin"
+	arm-none-eabi-objcopy -O binary "edge_capture_MK20DN512VMC10.elf"  "edge_capture_MK20DN512VMC10.bin"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Capture_K20_V00_R00.siz: Capture_K20_V00_R00.elf
+edge_capture_MK20DN512VMC10.siz: edge_capture_MK20DN512VMC10.elf
 	@echo 'Invoking: Cross ARM GNU Print Size'
-	arm-none-eabi-size --format=berkeley "Capture_K20_V00_R00.elf"
+	arm-none-eabi-size --format=berkeley "edge_capture_MK20DN512VMC10.elf"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(SECONDARY_SIZE)$(C++_DEPS)$(OBJS)$(C_DEPS)$(ASM_DEPS)$(CC_DEPS)$(SECONDARY_FLASH)$(CPP_DEPS)$(CXX_DEPS)$(C_UPPER_DEPS)$(S_UPPER_DEPS) Capture_K20_V00_R00.elf
+	-$(RM) $(SECONDARY_SIZE)$(C++_DEPS)$(OBJS)$(C_DEPS)$(ASM_DEPS)$(CC_DEPS)$(SECONDARY_FLASH)$(CPP_DEPS)$(CXX_DEPS)$(C_UPPER_DEPS)$(S_UPPER_DEPS) edge_capture_MK20DN512VMC10.elf
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_FLASH) $(SECONDARY_SIZE)
