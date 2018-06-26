@@ -1,0 +1,1503 @@
+Archive member included because of file (symbol)
+
+/opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-errno.o)
+                              ./utilities/fsl_sbrk.o (symbol from plugin) (__errno)
+/opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-exit.o)
+                              /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/crt0.o (exit)
+/opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-impure.o)
+                              /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-exit.o) (_global_impure_ptr)
+/opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-init.o)
+                              /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/crt0.o (__libc_init_array)
+/opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memset.o)
+                              /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/crt0.o (memset)
+/opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a(_exit.o)
+                              /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-exit.o) (_exit)
+/opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memcpy-stub.o)
+                              /tmp/ccjQGYpK.ltrans1.ltrans.o (memcpy)
+/opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-strlen.o)
+                              /tmp/ccjQGYpK.ltrans6.ltrans.o (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+spi_task_handle     0x4               ./source/main.o (symbol from plugin)
+adc_task_handle     0x4               ./source/main.o (symbol from plugin)
+can0_task_handle    0x4               ./source/main.o (symbol from plugin)
+dspiEdmaSlaveTxHandle
+                    0x18              ./source/com_task.o (symbol from plugin)
+can1_task_handle    0x4               ./source/main.o (symbol from plugin)
+xQueueRegistry      0x40              ./freertos/Source/queue.o (symbol from plugin)
+dspiEdmaSlaveRxHandle
+                    0x18              ./source/com_task.o (symbol from plugin)
+regRxHandled        0x1               ./source/com_task.o (symbol from plugin)
+s_saiHandle         0x8               ./drivers/fsl_sai.o (symbol from plugin)
+tsc_task_handle     0x4               ./source/main.o (symbol from plugin)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crti.o
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crti.o
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crti.o
+ .data          0x00000000        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtbegin.o
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .ARM.extab     0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .text          0x00000000        0x0 ./utilities/fsl_debug_console.o (symbol from plugin)
+ .text          0x00000000        0x0 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .data          0x00000000        0x0 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .rodata.s_dspiBases.8020
+                0x00000000        0xc /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .text          0x00000000        0x0 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .data          0x00000000        0x0 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .bss           0x00000000        0x0 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .text.DbgConsole_Putchar
+                0x00000000       0x28 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .text.unlikely.CLOCK_GetInternalRefClkFreq.part.5.6707
+                0x00000000       0x24 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .text.unlikely.xQueueGenericSendFromISR.constprop.1
+                0x00000000       0x90 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .text.vTaskSetTimeOutState.part.15.6049
+                0x00000000       0x14 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .text.vTaskDelay.part.9.6039
+                0x00000000       0x14 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .bss.regRxHandled.4523
+                0x00000000        0x1 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .text          0x00000000        0x0 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .data          0x00000000        0x0 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .bss           0x00000000        0x0 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .text.CLOCK_GetPll0Freq
+                0x00000000       0x6c /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .text.unlikely.FLEXCAN_SetRxMbConfig.constprop.46
+                0x00000000       0x68 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .rodata.__func__.6825.6653
+                0x00000000       0x18 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .rodata.__func__.7056.10055.4399
+                0x00000000       0x18 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .text          0x00000000        0x0 /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .data          0x00000000        0x0 /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .bss           0x00000000        0x0 /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .text          0x00000000        0x0 /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .data          0x00000000        0x0 /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .bss           0x00000000        0x0 /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .text          0x00000000        0x0 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .data          0x00000000        0x0 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .bss           0x00000000        0x0 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .text          0x00000000        0x0 /tmp/ccjQGYpK.ltrans6.ltrans.o
+ .data          0x00000000        0x0 /tmp/ccjQGYpK.ltrans6.ltrans.o
+ .bss           0x00000000        0x0 /tmp/ccjQGYpK.ltrans6.ltrans.o
+ .text          0x00000000        0x0 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .data          0x00000000        0x0 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .bss           0x00000000        0x0 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .text          0x00000000        0x0 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .data          0x00000000        0x0 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .bss           0x00000000        0x0 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .text.unlikely.FLEXCAN_TransferReceiveFifoNonBlocking.part.11.9896
+                0x00000000       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .text.unlikely.EDMA_GetInstance.part.0.8765
+                0x00000000       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .text.unlikely.DSPI_GetInstance.part.1.7811
+                0x00000000       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .text.unlikely.CLOCK_GetOsc0ErClkFreq.part.2.6701
+                0x00000000       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .text.unlikely.CLOCK_GetEr32kClkFreq
+                0x00000000       0x70 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .text.unlikely.CLOCK_GetPll0Freq.part.6.6709
+                0x00000000       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .text.unlikely.ADC16_GetInstance.part.0.6563
+                0x00000000       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .text.unlikely.ADC16_GetDefaultConfig.part.1.6596
+                0x00000000       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .text.unlikely.ADC16_SetChannelConfig.part.2.6598
+                0x00000000       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .text.unlikely.ADC16_GetChannelStatusFlags.part.3.6600
+                0x00000000       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.6778.6924.4545
+                0x00000000       0x14 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.7978.7994.4535
+                0x00000000       0x14 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.6690.6923.4541
+                0x00000000       0x18 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.6777.6652.4580
+                0x00000000       0x18 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.6909.9020.4487
+                0x00000000       0x14 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.6764.6651.4548
+                0x00000000       0x14 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.6831.6654.4616
+                0x00000000       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.6682.6922.4542
+                0x00000000       0x18 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .text          0x00000000        0x0 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .data          0x00000000        0x0 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .bss           0x00000000        0x0 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .text.unlikely.CLOCK_GetFixedFreqClkFreq
+                0x00000000       0x88 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .text.unlikely.CLOCK_GetPllFllSelClkFreq
+                0x00000000       0x18 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .rodata.s_slowIrcFreq.6931
+                0x00000000        0x4 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .rodata.s_fastIrcFreq.6928
+                0x00000000        0x4 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .text          0x00000000        0x0 /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .data          0x00000000        0x0 /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .bss           0x00000000        0x0 /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .rodata.__func__.7156.10047
+                0x00000000       0x28 /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .text          0x00000000        0x0 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .data          0x00000000        0x0 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .bss           0x00000000        0x0 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 ./utilities/fsl_notifier.o (symbol from plugin)
+ .text          0x00000000        0x0 ./utilities/fsl_sbrk.o (symbol from plugin)
+ .text          0x00000000        0x0 ./utilities/fsl_shell.o (symbol from plugin)
+ .data          0x00000000        0x0 ./startup/startup_MK20D10.o
+ .bss           0x00000000        0x0 ./startup/startup_MK20D10.o
+ .text          0x00000000        0x0 ./startup/system_MK20D10.o (symbol from plugin)
+ .text          0x00000000        0x0 ./source/adc_task.o (symbol from plugin)
+ .text          0x00000000        0x0 ./source/can_task.o (symbol from plugin)
+ .text          0x00000000        0x0 ./source/com_task.o (symbol from plugin)
+ .text          0x00000000        0x0 ./source/gpio_ext.o (symbol from plugin)
+ .text          0x00000000        0x0 ./source/main.o (symbol from plugin)
+ .text          0x00000000        0x0 ./freertos/Source/portable/MemMang/heap_4.o (symbol from plugin)
+ .text          0x00000000        0x0 ./freertos/Source/portable/GCC/ARM_CM3/fsl_tickless_lptmr.o (symbol from plugin)
+ .text          0x00000000        0x0 ./freertos/Source/portable/GCC/ARM_CM3/fsl_tickless_systick.o (symbol from plugin)
+ .text          0x00000000        0x0 ./freertos/Source/portable/GCC/ARM_CM3/port.o (symbol from plugin)
+ .text          0x00000000        0x0 ./freertos/Source/croutine.o (symbol from plugin)
+ .text          0x00000000        0x0 ./freertos/Source/event_groups.o (symbol from plugin)
+ .text          0x00000000        0x0 ./freertos/Source/list.o (symbol from plugin)
+ .text          0x00000000        0x0 ./freertos/Source/queue.o (symbol from plugin)
+ .text          0x00000000        0x0 ./freertos/Source/tasks.o (symbol from plugin)
+ .text          0x00000000        0x0 ./freertos/Source/timers.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_adc16.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_clock.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_cmp.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_cmt.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_common.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_crc.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_dac.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_dmamux.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_dspi.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_dspi_edma.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_dspi_freertos.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_edma.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_ewm.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_flash.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_flexbus.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_flexcan.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_ftm.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_gpio.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_i2c.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_i2c_edma.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_i2c_freertos.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_llwu.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_lptmr.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_pdb.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_pit.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_pmc.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_rcm.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_rtc.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_sai.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_sai_edma.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_sdhc.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_sim.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_smc.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_sysmpu.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_tsi_v2.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_uart.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_uart_edma.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_uart_freertos.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_vref.o (symbol from plugin)
+ .text          0x00000000        0x0 ./drivers/fsl_wdog.o (symbol from plugin)
+ .text          0x00000000        0x0 ./board/board.o (symbol from plugin)
+ .text          0x00000000        0x0 ./board/clock_config.o (symbol from plugin)
+ .text          0x00000000        0x0 ./board/pin_mux.o (symbol from plugin)
+ .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-errno.o)
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-errno.o)
+ .text.__errno  0x00000000        0xc /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x2e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-errno.o)
+ .debug_frame   0x00000000       0x20 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-errno.o)
+ .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-exit.o)
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-exit.o)
+ .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-impure.o)
+ .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-init.o)
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-init.o)
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-init.o)
+ .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memset.o)
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memset.o)
+ .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a(_exit.o)
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a(_exit.o)
+ .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtend.o
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtend.o
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtend.o
+ .eh_frame      0x00000000        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtend.o
+ .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtn.o
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtn.o
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000400         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_fw_version     0x00000410         0x00000004         xr
+m_text           0x00000414         0x0007fbec         xr
+m_data           0x1fff0000         0x00010000         rw
+m_data_2         0x20000000         0x00010000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crti.o
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtbegin.o
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+LOAD ./utilities/fsl_debug_console.o
+LOAD /tmp/ccjQGYpK.ltrans0.ltrans.o
+LOAD /tmp/ccjQGYpK.ltrans1.ltrans.o
+LOAD /tmp/ccjQGYpK.ltrans2.ltrans.o
+LOAD /tmp/ccjQGYpK.ltrans3.ltrans.o
+LOAD /tmp/ccjQGYpK.ltrans4.ltrans.o
+LOAD /tmp/ccjQGYpK.ltrans5.ltrans.o
+LOAD /tmp/ccjQGYpK.ltrans6.ltrans.o
+LOAD /tmp/ccjQGYpK.ltrans7.ltrans.o
+LOAD /tmp/ccjQGYpK.ltrans8.ltrans.o
+LOAD /tmp/ccjQGYpK.ltrans9.ltrans.o
+LOAD /tmp/ccjQGYpK.ltrans10.ltrans.o
+LOAD /tmp/ccjQGYpK.ltrans11.ltrans.o
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/libgcc.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libc_s.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/libgcc.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libc_s.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/libgcc.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libc_s.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a
+LOAD ./utilities/fsl_notifier.o
+LOAD ./utilities/fsl_sbrk.o
+LOAD ./utilities/fsl_shell.o
+LOAD ./startup/startup_MK20D10.o
+LOAD ./startup/system_MK20D10.o
+LOAD ./source/adc_task.o
+LOAD ./source/can_task.o
+LOAD ./source/com_task.o
+LOAD ./source/gpio_ext.o
+LOAD ./source/main.o
+LOAD ./freertos/Source/portable/MemMang/heap_4.o
+LOAD ./freertos/Source/portable/GCC/ARM_CM3/fsl_tickless_lptmr.o
+LOAD ./freertos/Source/portable/GCC/ARM_CM3/fsl_tickless_systick.o
+LOAD ./freertos/Source/portable/GCC/ARM_CM3/port.o
+LOAD ./freertos/Source/croutine.o
+LOAD ./freertos/Source/event_groups.o
+LOAD ./freertos/Source/list.o
+LOAD ./freertos/Source/queue.o
+LOAD ./freertos/Source/tasks.o
+LOAD ./freertos/Source/timers.o
+LOAD ./drivers/fsl_adc16.o
+LOAD ./drivers/fsl_clock.o
+LOAD ./drivers/fsl_cmp.o
+LOAD ./drivers/fsl_cmt.o
+LOAD ./drivers/fsl_common.o
+LOAD ./drivers/fsl_crc.o
+LOAD ./drivers/fsl_dac.o
+LOAD ./drivers/fsl_dmamux.o
+LOAD ./drivers/fsl_dspi.o
+LOAD ./drivers/fsl_dspi_edma.o
+LOAD ./drivers/fsl_dspi_freertos.o
+LOAD ./drivers/fsl_edma.o
+LOAD ./drivers/fsl_ewm.o
+LOAD ./drivers/fsl_flash.o
+LOAD ./drivers/fsl_flexbus.o
+LOAD ./drivers/fsl_flexcan.o
+LOAD ./drivers/fsl_ftm.o
+LOAD ./drivers/fsl_gpio.o
+LOAD ./drivers/fsl_i2c.o
+LOAD ./drivers/fsl_i2c_edma.o
+LOAD ./drivers/fsl_i2c_freertos.o
+LOAD ./drivers/fsl_llwu.o
+LOAD ./drivers/fsl_lptmr.o
+LOAD ./drivers/fsl_pdb.o
+LOAD ./drivers/fsl_pit.o
+LOAD ./drivers/fsl_pmc.o
+LOAD ./drivers/fsl_rcm.o
+LOAD ./drivers/fsl_rtc.o
+LOAD ./drivers/fsl_sai.o
+LOAD ./drivers/fsl_sai_edma.o
+LOAD ./drivers/fsl_sdhc.o
+LOAD ./drivers/fsl_sim.o
+LOAD ./drivers/fsl_smc.o
+LOAD ./drivers/fsl_sysmpu.o
+LOAD ./drivers/fsl_tsi_v2.o
+LOAD ./drivers/fsl_uart.o
+LOAD ./drivers/fsl_uart_edma.o
+LOAD ./drivers/fsl_uart_freertos.o
+LOAD ./drivers/fsl_vref.o
+LOAD ./drivers/fsl_wdog.o
+LOAD ./board/board.o
+LOAD ./board/clock_config.o
+LOAD ./board/pin_mux.o
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libstdc++_s.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libm.a
+START GROUP
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/libgcc.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libc_s.a
+END GROUP
+START GROUP
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/libgcc.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libc_s.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a
+END GROUP
+START GROUP
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/libgcc.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libc_s.a
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a
+END GROUP
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtend.o
+LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtn.o
+                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+                0x00000000                M_VECTOR_RAM_SIZE = DEFINED (__ram_vector_table__)?0x400:0x0
+
+.interrupts     0x00000000      0x400
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x400 ./startup/startup_MK20D10.o
+                0x00000000                __isr_vector
+                0x00000400                . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 ./startup/startup_MK20D10.o
+                0x00000410                . = ALIGN (0x4)
+
+.fw_config      0x00000410        0x4
+ *(.FwVersion)
+ .FwVersion     0x00000410        0x4 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00000410                fw_version
+
+.text           0x00000420     0x7224
+                0x00000420                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000420       0x54 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtbegin.o
+ .text          0x00000474       0x74 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+                0x00000474                _mainCRTStartup
+                0x00000474                _start
+ .text          0x000004e8      0x1dc ./startup/startup_MK20D10.o
+                0x000004e8                Reset_Handler
+                0x00000530                Reserved111_IRQHandler
+                0x00000530                DebugMon_Handler
+                0x00000530                DMA_Error_DriverIRQHandler
+                0x00000530                Reserved114_IRQHandler
+                0x00000530                Reserved59_IRQHandler
+                0x00000530                PIT0_IRQHandler
+                0x00000530                Reserved119_IRQHandler
+                0x00000530                CMP2_IRQHandler
+                0x00000530                LLWU_IRQHandler
+                0x00000530                Reserved116_IRQHandler
+                0x00000530                TSI0_IRQHandler
+                0x00000530                Reserved92_IRQHandler
+                0x00000530                SWI_IRQHandler
+                0x00000530                ADC0_IRQHandler
+                0x00000530                Reserved39_IRQHandler
+                0x00000530                UsageFault_Handler
+                0x00000530                CMT_IRQHandler
+                0x00000530                DefaultISR
+                0x00000530                UART5_ERR_DriverIRQHandler
+                0x00000530                CMP1_IRQHandler
+                0x00000530                PORTD_IRQHandler
+                0x00000530                PORTB_IRQHandler
+                0x00000530                UART2_ERR_DriverIRQHandler
+                0x00000530                ADC1_IRQHandler
+                0x00000530                PIT2_IRQHandler
+                0x00000530                RTC_IRQHandler
+                0x00000530                UART3_ERR_DriverIRQHandler
+                0x00000530                PDB0_IRQHandler
+                0x00000530                FTM1_IRQHandler
+                0x00000530                Reserved95_IRQHandler
+                0x00000530                PIT3_IRQHandler
+                0x00000530                RTC_Seconds_IRQHandler
+                0x00000530                MCG_IRQHandler
+                0x00000530                Reserved108_IRQHandler
+                0x00000530                UART0_ERR_DriverIRQHandler
+                0x00000530                Reserved117_IRQHandler
+                0x00000530                Read_Collision_IRQHandler
+                0x00000530                Reserved102_IRQHandler
+                0x00000530                USBDCD_IRQHandler
+                0x00000530                USB0_IRQHandler
+                0x00000530                UART4_ERR_DriverIRQHandler
+                0x00000530                WDOG_EWM_IRQHandler
+                0x00000530                MemManage_Handler
+                0x00000530                Reserved115_IRQHandler
+                0x00000530                UART0_LON_DriverIRQHandler
+                0x00000530                Reserved109_IRQHandler
+                0x00000530                Reserved91_IRQHandler
+                0x00000530                DAC0_IRQHandler
+                0x00000530                Reserved118_IRQHandler
+                0x00000530                Reserved94_IRQHandler
+                0x00000530                Reserved112_IRQHandler
+                0x00000530                PIT1_IRQHandler
+                0x00000530                LVD_LVW_IRQHandler
+                0x00000530                FTM0_IRQHandler
+                0x00000530                PORTA_IRQHandler
+                0x00000530                DAC1_IRQHandler
+                0x00000530                MCM_IRQHandler
+                0x00000530                FTFL_IRQHandler
+                0x00000530                PORTE_IRQHandler
+                0x00000530                FTM2_IRQHandler
+                0x00000530                LPTMR0_IRQHandler
+                0x00000530                BusFault_Handler
+                0x00000530                UART1_ERR_DriverIRQHandler
+                0x00000530                Reserved93_IRQHandler
+                0x00000530                CMP0_IRQHandler
+                0x00000530                PORTC_IRQHandler
+                0x00000530                Reserved113_IRQHandler
+                0x00000534                NMI_Handler
+                0x00000538                HardFault_Handler
+                0x00000548                DMA0_IRQHandler
+                0x0000054c                DMA1_IRQHandler
+                0x00000550                DMA2_IRQHandler
+                0x00000554                DMA3_IRQHandler
+                0x00000558                DMA4_IRQHandler
+                0x0000055c                DMA5_IRQHandler
+                0x00000560                DMA6_IRQHandler
+                0x00000564                DMA7_IRQHandler
+                0x00000568                DMA8_IRQHandler
+                0x0000056c                DMA9_IRQHandler
+                0x00000570                DMA10_IRQHandler
+                0x00000574                DMA11_IRQHandler
+                0x00000578                DMA12_IRQHandler
+                0x0000057c                DMA13_IRQHandler
+                0x00000580                DMA14_IRQHandler
+                0x00000584                DMA15_IRQHandler
+                0x00000588                DMA_Error_IRQHandler
+                0x0000058c                I2C0_IRQHandler
+                0x00000590                I2C1_IRQHandler
+                0x00000594                SPI0_IRQHandler
+                0x00000598                SPI1_IRQHandler
+                0x0000059c                SPI2_IRQHandler
+                0x000005a0                CAN0_ORed_Message_buffer_IRQHandler
+                0x000005a4                CAN0_Bus_Off_IRQHandler
+                0x000005a8                CAN0_Error_IRQHandler
+                0x000005ac                CAN0_Tx_Warning_IRQHandler
+                0x000005b0                CAN0_Rx_Warning_IRQHandler
+                0x000005b4                CAN0_Wake_Up_IRQHandler
+                0x000005b8                I2S0_Tx_IRQHandler
+                0x000005bc                I2S0_Rx_IRQHandler
+                0x000005c0                CAN1_ORed_Message_buffer_IRQHandler
+                0x000005c4                CAN1_Bus_Off_IRQHandler
+                0x000005c8                CAN1_Error_IRQHandler
+                0x000005cc                CAN1_Tx_Warning_IRQHandler
+                0x000005d0                CAN1_Rx_Warning_IRQHandler
+                0x000005d4                CAN1_Wake_Up_IRQHandler
+                0x000005d8                UART0_LON_IRQHandler
+                0x000005dc                UART0_RX_TX_IRQHandler
+                0x000005e0                UART0_ERR_IRQHandler
+                0x000005e4                UART1_RX_TX_IRQHandler
+                0x000005e8                UART1_ERR_IRQHandler
+                0x000005ec                UART2_RX_TX_IRQHandler
+                0x000005f0                UART2_ERR_IRQHandler
+                0x000005f4                UART3_RX_TX_IRQHandler
+                0x000005f8                UART3_ERR_IRQHandler
+                0x000005fc                UART4_RX_TX_IRQHandler
+                0x00000600                UART4_ERR_IRQHandler
+                0x00000604                UART5_RX_TX_IRQHandler
+                0x00000608                UART5_ERR_IRQHandler
+                0x0000060c                SDHC_IRQHandler
+ *(.text*)
+ .text.spi_task
+                0x000006c4      0xe70 /tmp/ccjQGYpK.ltrans0.ltrans.o
+                0x000006c4                spi_task
+ .text.vListInsertEnd
+                0x00001534       0x1c /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001534                vListInsertEnd
+ .text.uxListRemove
+                0x00001550       0x28 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001550                uxListRemove
+ .text.prvTaskExitError.5485
+                0x00001578       0x30 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001578                prvTaskExitError.5485
+ .text.vPortValidateInterruptPriority.4327
+                0x000015a8       0x5c /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .text.xTaskGenericNotifyFromISR.constprop.39.4326
+                0x00001604      0x130 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .text.UART_WriteBlocking
+                0x00001734       0x18 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001734                UART_WriteBlocking
+ .text.prvAddCurrentTaskToDelayedList.6025
+                0x0000174c      0x114 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x0000174c                prvAddCurrentTaskToDelayedList.6025
+ .text.xTaskRemoveFromEventList
+                0x00001860       0xf4 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001860                xTaskRemoveFromEventList
+ .text.unlikely.xQueueGiveFromISR.part.4.5761.4231
+                0x00001954       0x60 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .text.SPI_callback.5143
+                0x000019b4       0x88 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x000019b4                SPI_callback.5143
+ .text.flexcan_callback.4775
+                0x00001a3c       0xc4 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001a3c                flexcan_callback.4775
+ .text.vListInitialise
+                0x00001b00       0x18 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001b00                vListInitialise
+ .text.unlikely.prvCopyDataToQueue.5741.constprop.4
+                0x00001b18       0xe8 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001b18                prvCopyDataToQueue.5741.constprop.4
+ .text.unlikely.pvTaskIncrementMutexHeldCount
+                0x00001c00       0x18 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001c00                pvTaskIncrementMutexHeldCount
+ .text.unlikely.vTaskPriorityInherit
+                0x00001c18       0x98 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001c18                vTaskPriorityInherit
+ .text.xTaskGetSchedulerState
+                0x00001cb0       0x20 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001cb0                xTaskGetSchedulerState
+ .text.vTaskSuspendAll
+                0x00001cd0       0x10 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001cd0                vTaskSuspendAll
+ .text.unlikely.prvResetNextTaskUnblockTime.6011
+                0x00001ce0       0x28 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001ce0                prvResetNextTaskUnblockTime.6011
+ .text.unlikely.prvCopyDataFromQueue.5746
+                0x00001d08       0x2c /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001d08                prvCopyDataFromQueue.5746
+ .text.vPortExitCritical
+                0x00001d34       0x28 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001d34                vPortExitCritical
+ .text.vPortEnterCritical
+                0x00001d5c       0x44 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001d5c                vPortEnterCritical
+ .text.xTaskResumeAll
+                0x00001da0      0x2c8 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00001da0                xTaskResumeAll
+ .text.unlikely.prvPortStartFirstTask.5488
+                0x00002068       0x20 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00002068                prvPortStartFirstTask.5488
+ .text.unlikely.prvInsertBlockIntoFreeList.5438
+                0x00002088       0x50 /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00002088                prvInsertBlockIntoFreeList.5438
+ .text.pvPortMalloc.4310
+                0x000020d8      0x13c /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .text.xQueueGenericCreate
+                0x00002214       0x8c /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x00002214                xQueueGenericCreate
+ .text.xTaskCreate.constprop.12
+                0x000022a0      0x24c /tmp/ccjQGYpK.ltrans1.ltrans.o
+                0x000022a0                xTaskCreate.constprop.12
+ .text.tsc_task
+                0x000024ec      0x2dc /tmp/ccjQGYpK.ltrans2.ltrans.o
+                0x000024ec                tsc_task
+ .text.adc_task
+                0x000027c8      0x108 /tmp/ccjQGYpK.ltrans2.ltrans.o
+                0x000027c8                adc_task
+ .text.FLEXCAN_SetTxMbConfig.constprop.47
+                0x000028d0       0x5c /tmp/ccjQGYpK.ltrans2.ltrans.o
+                0x000028d0                FLEXCAN_SetTxMbConfig.constprop.47
+ .text.FLEXCAN_SetBaudRate.9921
+                0x0000292c       0x90 /tmp/ccjQGYpK.ltrans2.ltrans.o
+                0x0000292c                FLEXCAN_SetBaudRate.9921
+ .text.EDMA_SetTransferConfig.constprop.25
+                0x000029bc       0xa4 /tmp/ccjQGYpK.ltrans2.ltrans.o
+                0x000029bc                EDMA_SetTransferConfig.constprop.25
+ .text.prvTimerTask.6356
+                0x00002a60      0x544 /tmp/ccjQGYpK.ltrans3.ltrans.o
+                0x00002a60                prvTimerTask.6356
+ .text.SystemInit
+                0x00002fa4       0x1c /tmp/ccjQGYpK.ltrans3.ltrans.o
+                0x00002fa4                SystemInit
+ .text.can_tx_notify_task
+                0x00002fc0      0x1b0 /tmp/ccjQGYpK.ltrans4.ltrans.o
+                0x00002fc0                can_tx_notify_task
+ .text.prvIdleTask.5996
+                0x00003170      0x1d4 /tmp/ccjQGYpK.ltrans4.ltrans.o
+                0x00003170                prvIdleTask.5996
+ .text.prvUnlockQueue.5750
+                0x00003344      0x344 /tmp/ccjQGYpK.ltrans4.ltrans.o
+                0x00003344                prvUnlockQueue.5750
+ .text.xQueueGenericSend.constprop.2
+                0x00003688       0xc0 /tmp/ccjQGYpK.ltrans4.ltrans.o
+                0x00003688                xQueueGenericSend.constprop.2
+ .text.DMA9_DriverIRQHandler
+                0x00003748       0xb8 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003748                DMA9_DriverIRQHandler
+ .text.DMA8_DriverIRQHandler
+                0x00003800       0xb8 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003800                DMA8_DriverIRQHandler
+ .text.DMA7_DriverIRQHandler
+                0x000038b8       0xb8 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x000038b8                DMA7_DriverIRQHandler
+ .text.DMA6_DriverIRQHandler
+                0x00003970       0xb8 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003970                DMA6_DriverIRQHandler
+ .text.DMA5_DriverIRQHandler
+                0x00003a28       0xb8 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003a28                DMA5_DriverIRQHandler
+ .text.DMA4_DriverIRQHandler
+                0x00003ae0       0xb8 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003ae0                DMA4_DriverIRQHandler
+ .text.DMA3_DriverIRQHandler
+                0x00003b98       0xb8 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003b98                DMA3_DriverIRQHandler
+ .text.DMA2_DriverIRQHandler
+                0x00003c50       0xb8 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003c50                DMA2_DriverIRQHandler
+ .text.DMA1_DriverIRQHandler
+                0x00003d08       0xb8 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003d08                DMA1_DriverIRQHandler
+ .text.DMA0_DriverIRQHandler
+                0x00003dc0       0xb8 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003dc0                DMA0_DriverIRQHandler
+ .text.SPI2_DriverIRQHandler
+                0x00003e78       0x44 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003e78                SPI2_DriverIRQHandler
+ .text.SPI1_DriverIRQHandler
+                0x00003ebc       0x44 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003ebc                SPI1_DriverIRQHandler
+ .text.SPI0_DriverIRQHandler
+                0x00003f00       0x44 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003f00                SPI0_DriverIRQHandler
+ .text.vTaskSwitchContext
+                0x00003f44       0x70 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003f44                vTaskSwitchContext
+ .text.SysTick_Handler
+                0x00003fb4      0x1b0 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x00003fb4                SysTick_Handler
+ .text.DbgConsole_Printf
+                0x00004164      0x410 /tmp/ccjQGYpK.ltrans6.ltrans.o
+                0x00004164                DbgConsole_Printf
+ .text.unlikely.__assert_func
+                0x00004574       0x1c /tmp/ccjQGYpK.ltrans6.ltrans.o
+                0x00004574                __assert_func
+ .text.xQueueGenericReceive.constprop.37
+                0x00004590      0x288 /tmp/ccjQGYpK.ltrans6.ltrans.o
+                0x00004590                xQueueGenericReceive.constprop.37
+ .text.prvSwitchTimerLists.6404
+                0x00004818       0xe8 /tmp/ccjQGYpK.ltrans6.ltrans.o
+                0x00004818                prvSwitchTimerLists.6404
+ .text.PendSV_Handler
+                0x00004900       0x50 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x00004900                PendSV_Handler
+ .text.SVC_Handler
+                0x00004950       0x30 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x00004950                SVC_Handler
+ .text.startup.main
+                0x00004980      0x814 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x00004980                main
+ .text.UART_ReadBlocking
+                0x00005194       0x74 /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x00005194                UART_ReadBlocking
+ .text.EDMA_DspiSlaveCallback.8304
+                0x00005208       0x48 /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x00005208                EDMA_DspiSlaveCallback.8304
+ .text.DSPI_SlaveTransferHandleIRQ
+                0x00005250      0x188 /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x00005250                DSPI_SlaveTransferHandleIRQ
+ .text.unlikely.GPIO_PinInit.part.1.10407
+                0x000053d8       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x000053d8                GPIO_PinInit.part.1.10407
+ .text.GPIO_PinInit
+                0x000053f4       0x40 /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x000053f4                GPIO_PinInit
+ .text.unlikely.FLEXCAN_GetInstance.part.4.9880
+                0x00005434       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x00005434                FLEXCAN_GetInstance.part.4.9880
+ .text.unlikely.FLEXCAN_SetTxMbConfig.part.8.9888
+                0x00005450       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x00005450                FLEXCAN_SetTxMbConfig.part.8.9888
+ .text.can_sendframe
+                0x0000546c      0x280 /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x0000546c                can_sendframe
+ .text.EDMA_CreateHandle.constprop.17
+                0x000056ec       0xa0 /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x000056ec                EDMA_CreateHandle.constprop.17
+ .text.unlikely.EDMA_TcdReset.part.8.8781
+                0x0000578c       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x0000578c                EDMA_TcdReset.part.8.8781
+ .text.unlikely.EDMA_ResetChannel.part.9.8783
+                0x000057a8       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x000057a8                EDMA_ResetChannel.part.9.8783
+ .text.unlikely.EDMA_SetChannelPreemptionConfig.part.2.8328
+                0x000057c4       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x000057c4                EDMA_SetChannelPreemptionConfig.part.2.8328
+ .text.DSPI_GetInstance.constprop.30
+                0x000057e0        0x4 /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x000057e0                DSPI_GetInstance.constprop.30
+ .text.unlikely.CLOCK_GetMcgExtClkFreq.part.1.6693
+                0x000057e4       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x000057e4                CLOCK_GetMcgExtClkFreq.part.1.6693
+ .text.CLOCK_GetFllFreq
+                0x00005800       0xd4 /tmp/ccjQGYpK.ltrans8.ltrans.o
+                0x00005800                CLOCK_GetFllFreq
+ .text.CLOCK_GetOutClkFreq
+                0x000058d4       0xa4 /tmp/ccjQGYpK.ltrans9.ltrans.o
+                0x000058d4                CLOCK_GetOutClkFreq
+ .text.CAN_Init.4790
+                0x00005978      0x3f4 /tmp/ccjQGYpK.ltrans9.ltrans.o
+                0x00005978                CAN_Init.4790
+ .text.FLEXCAN_TransferHandleIRQ
+                0x00005d6c      0x388 /tmp/ccjQGYpK.ltrans10.ltrans.o
+                0x00005d6c                FLEXCAN_TransferHandleIRQ
+ .text.can1_task
+                0x000060f4      0x26c /tmp/ccjQGYpK.ltrans10.ltrans.o
+                0x000060f4                can1_task
+ .text.can0_task
+                0x00006360      0x250 /tmp/ccjQGYpK.ltrans10.ltrans.o
+                0x00006360                can0_task
+ .text.UART5_RX_TX_DriverIRQHandler
+                0x000065b0       0x18 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x000065b0                UART5_RX_TX_DriverIRQHandler
+ .text.UART4_RX_TX_DriverIRQHandler
+                0x000065c8       0x18 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x000065c8                UART4_RX_TX_DriverIRQHandler
+ .text.UART3_RX_TX_DriverIRQHandler
+                0x000065e0       0x18 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x000065e0                UART3_RX_TX_DriverIRQHandler
+ .text.UART2_RX_TX_DriverIRQHandler
+                0x000065f8       0x18 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x000065f8                UART2_RX_TX_DriverIRQHandler
+ .text.UART1_RX_TX_DriverIRQHandler
+                0x00006610       0x18 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x00006610                UART1_RX_TX_DriverIRQHandler
+ .text.UART0_RX_TX_DriverIRQHandler
+                0x00006628       0x18 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x00006628                UART0_RX_TX_DriverIRQHandler
+ .text.SDHC_DriverIRQHandler
+                0x00006640       0x1c /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x00006640                SDHC_DriverIRQHandler
+ .text.I2S0_Rx_DriverIRQHandler
+                0x0000665c       0x1c /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x0000665c                I2S0_Rx_DriverIRQHandler
+ .text.I2S0_Tx_DriverIRQHandler
+                0x00006678       0x1c /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x00006678                I2S0_Tx_DriverIRQHandler
+ .text.I2C1_DriverIRQHandler
+                0x00006694       0x40 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x00006694                I2C1_DriverIRQHandler
+ .text.I2C0_DriverIRQHandler
+                0x000066d4       0x40 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x000066d4                I2C0_DriverIRQHandler
+ .text.CAN1_DriverIRQHandler
+                0x00006714       0x38 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x00006714                CAN1_DriverIRQHandler
+ .text.CAN0_DriverIRQHandler
+                0x0000674c       0x38 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x0000674c                CAN0_DriverIRQHandler
+ .text.DMA15_DriverIRQHandler
+                0x00006784       0xb8 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x00006784                DMA15_DriverIRQHandler
+ .text.DMA14_DriverIRQHandler
+                0x0000683c       0xb8 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x0000683c                DMA14_DriverIRQHandler
+ .text.DMA13_DriverIRQHandler
+                0x000068f4       0xb8 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x000068f4                DMA13_DriverIRQHandler
+ .text.DMA12_DriverIRQHandler
+                0x000069ac       0xb8 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x000069ac                DMA12_DriverIRQHandler
+ .text.DMA11_DriverIRQHandler
+                0x00006a64       0xb8 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x00006a64                DMA11_DriverIRQHandler
+ .text.DMA10_DriverIRQHandler
+                0x00006b1c       0xb8 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x00006b1c                DMA10_DriverIRQHandler
+ .text.memcpy   0x00006bd4       0x12 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memcpy-stub.o)
+                0x00006bd4                memcpy
+ .text.strlen   0x00006be6       0x10 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-strlen.o)
+                0x00006be6                strlen
+ *fill*         0x00006bf6        0x2 
+ .text.exit     0x00006bf8       0x28 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-exit.o)
+                0x00006bf8                exit
+ .text.__libc_init_array
+                0x00006c20       0x4c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-init.o)
+                0x00006c20                __libc_init_array
+ .text.memset   0x00006c6c       0x10 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memset.o)
+                0x00006c6c                memset
+ .text._exit    0x00006c7c        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a(_exit.o)
+                0x00006c7c                _exit
+ *(.rodata)
+ .rodata        0x00006c80        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ *(.rodata*)
+ .rodata.__func__.7060.9043.4628
+                0x00006c84       0x14 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .rodata.__func__.7119.8432
+                0x00006c98       0x20 /tmp/ccjQGYpK.ltrans0.ltrans.o
+                0x00006c98                __func__.7119.8432
+ .rodata.str1.4
+                0x00006cb8       0x92 /tmp/ccjQGYpK.ltrans0.ltrans.o
+                                 0x94 (size before relaxing)
+ *fill*         0x00006d4a        0x2 
+ .rodata.__func__.6974.9029.4627
+                0x00006d4c       0x20 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .rodata.s_dspiClock.8024.4697
+                0x00006d6c        0xc /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .rodata.__func__.6984.9031
+                0x00006d78       0x10 /tmp/ccjQGYpK.ltrans0.ltrans.o
+                0x00006d78                __func__.6984.9031
+ .rodata.__func__.7105.9050.4625
+                0x00006d88       0x14 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .rodata.str1.4
+                0x00006d9c      0x110 /tmp/ccjQGYpK.ltrans2.ltrans.o
+                                0x174 (size before relaxing)
+ .rodata.adc0_channels
+                0x00006eac        0x4 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .rodata.__func__.7003.10043.4400
+                0x00006eb0       0x14 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .rodata.__func__.6990.9045.4403
+                0x00006ec4       0x1c /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .rodata.__func__.6940.9033.4402
+                0x00006ee0       0x18 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .rodata.__func__.8280.8005.4286
+                0x00006ef8       0x18 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .rodata.str1.4
+                0x00006f10       0x48 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                                 0x70 (size before relaxing)
+ .rodata.__func__.8288.8007.4284
+                0x00006f58       0x18 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .rodata.__func__.8284.8006.4285
+                0x00006f70       0x18 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .rodata.str1.4
+                0x00006f88       0x3e /tmp/ccjQGYpK.ltrans6.ltrans.o
+                                 0x40 (size before relaxing)
+ *fill*         0x00006fc6        0x2 
+ .rodata.str1.4
+                0x00006fc8      0x130 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .rodata.__func__.7045.9047.4449
+                0x000070f8       0x14 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.6952.10041.4456
+                0x0000710c       0x14 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.fllFactorTable.6763.6932.4536
+                0x00007120       0x10 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.6932.13344.4454
+                0x00007130       0x14 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.str1.4
+                0x00007144      0x1e5 /tmp/ccjQGYpK.ltrans8.ltrans.o
+                                0x2fc (size before relaxing)
+ *fill*         0x00007329        0x3 
+ .rodata.__func__.7144.10061.4485
+                0x0000732c       0x20 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.7091.10057.4486
+                0x0000734c       0x14 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.7455.8433.4530
+                0x00007360       0x18 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.s_edmaIRQNumber.9053.4450
+                0x00007378       0x10 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.6664.10423.4455
+                0x00007388       0x10 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.8263.7993.4531
+                0x00007398       0x1c /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.6933.9032.4495
+                0x000073b4       0x14 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .rodata.__func__.6645.6921
+                0x000073c8       0x18 /tmp/ccjQGYpK.ltrans9.ltrans.o
+                0x000073c8                __func__.6645.6921
+ .rodata.s_flexcanMbIRQ.10077.4281
+                0x000073e0        0x4 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .rodata.__func__.7063.10056.4269
+                0x000073e4       0x18 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .rodata.s_flexcanWakeUpIRQ.10074.4278
+                0x000073fc        0x4 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .rodata.s_flexcanBusOffIRQ.10076.4280
+                0x00007400        0x4 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .rodata.str1.4
+                0x00007404       0x46 /tmp/ccjQGYpK.ltrans9.ltrans.o
+                                 0x8c (size before relaxing)
+ *fill*         0x0000744a        0x2 
+ .rodata.s_flexcanErrorIRQ.10075.4279
+                0x0000744c        0x4 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .rodata.s_flexcanRxWarningIRQ.10070.4271
+                0x00007450        0x4 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .rodata.s_flexcanClock.10064.4284
+                0x00007454        0x8 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .rodata.s_flexcanTxWarningIRQ.10073.4277
+                0x0000745c        0x4 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .rodata.__func__.6982.10040.4288
+                0x00007460       0x10 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .rodata.__func__.7162.10048.4218
+                0x00007470       0x1c /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .rodata.__func__.7049.10045
+                0x0000748c       0x18 /tmp/ccjQGYpK.ltrans10.ltrans.o
+                0x0000748c                __func__.7049.10045
+ .rodata.__func__.7178.10060.4217
+                0x000074a4       0x1c /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .rodata.__func__.7105.10046.4221
+                0x000074c0       0x14 /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .rodata.str1.4
+                0x000074d4       0x2e /tmp/ccjQGYpK.ltrans10.ltrans.o
+                                 0xa4 (size before relaxing)
+ *fill*         0x00007502        0x2 
+ .rodata.__func__.7198.10051.4483
+                0x00007504       0x18 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .rodata.__func__.7167.11835.4477
+                0x0000751c       0x1c /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .rodata.__func__.7202.10052.4482
+                0x00007538       0x18 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .rodata.__func__.7118.9051
+                0x00007550       0x10 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x00007550                __func__.7118.9051
+ .rodata.str1.4
+                0x00007560       0x90 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                                 0xd4 (size before relaxing)
+ .rodata.__func__.7355.12521.4423
+                0x000075f0       0x18 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .rodata.__func__.7171.11836.4474
+                0x00007608       0x1c /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .rodata.str1.1
+                0x00007624        0x2 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-impure.o)
+ *fill*         0x00007626        0x2 
+ .rodata._global_impure_ptr
+                0x00007628        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-impure.o)
+                0x00007628                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x0000762c        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtbegin.o
+ *(.init)
+ .init          0x0000762c        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crti.o
+                0x0000762c                _init
+ .init          0x00007630        0x8 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtn.o
+ *(.fini)
+ .fini          0x00007638        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crti.o
+                0x00007638                _fini
+ .fini          0x0000763c        0x8 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtn.o
+                0x00007644                . = ALIGN (0x4)
+
+.vfp11_veneer   0x00007644        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00007644        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00007644        0x0
+ .iplt          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x00007644        0x8
+                0x00007644                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x00007644        0x8 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+                0x0000764c                __exidx_end = .
+
+.rel.dyn        0x0000764c        0x0
+ .rel.iplt      0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtbegin.o
+
+.ctors          0x0000764c        0x0
+                0x0000764c                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x0000764c                __CTOR_END__ = .
+
+.dtors          0x0000764c        0x0
+                0x0000764c                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x0000764c                __DTOR_END__ = .
+
+.preinit_array  0x0000764c        0x0
+                0x0000764c                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x0000764c                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000764c        0x4
+                0x0000764c                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x0000764c        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtbegin.o
+                0x00007650                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00007650        0x4
+                0x00007650                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x00007650        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtbegin.o
+                0x00007654                PROVIDE (__fini_array_end, .)
+                0x00007654                __etext = .
+                0x00007654                __DATA_ROM = .
+
+.interrupts_ram
+                0x1fff0000        0x0
+                0x1fff0000                . = ALIGN (0x4)
+                0x1fff0000                __VECTOR_RAM__ = .
+                0x1fff0000                __interrupts_ram_start__ = .
+ *(.m_interrupts_ram)
+                0x1fff0000                . = (. + M_VECTOR_RAM_SIZE)
+                0x1fff0000                . = ALIGN (0x4)
+                0x1fff0000                __interrupts_ram_end__ = .
+                0x00000000                __VECTOR_RAM = DEFINED (__ram_vector_table__)?__VECTOR_RAM__:ORIGIN (m_interrupts)
+                0x00000000                __RAM_VECTOR_TABLE_SIZE_BYTES = DEFINED (__ram_vector_table__)?(__interrupts_ram_end__ - __interrupts_ram_start__):0x0
+
+.data           0x1fff0000      0x228 load address 0x00007654
+                0x1fff0000                . = ALIGN (0x4)
+                0x1fff0000                __DATA_RAM = .
+                0x1fff0000                __data_start__ = .
+ *(.data)
+ *(.data*)
+ .data.gpio_list
+                0x1fff0000      0x1bc /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x1fff0000                gpio_list
+ .data.uxCriticalNesting.5520
+                0x1fff01bc        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x1fff01bc                uxCriticalNesting.5520
+ .data.SystemCoreClock
+                0x1fff01c0        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .data.impure_data
+                0x1fff01c4       0x60 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-impure.o)
+ *(.jcr*)
+ .jcr           0x1fff0224        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtbegin.o
+ .jcr           0x1fff0224        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtend.o
+                0x1fff0228                . = ALIGN (0x4)
+                0x1fff0228                __data_end__ = .
+                0x0000787c                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x00080000                text_end = (ORIGIN (m_text) + 0x7fbec)
+                0x00000001                ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
+
+.igot.plt       0x1fff0228        0x0 load address 0x0000787c
+ .igot.plt      0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtbegin.o
+
+.bss            0x1fff0228     0x48f8 load address 0x0000787c
+                0x1fff0228                . = ALIGN (0x4)
+                0x1fff0228                __START_BSS = .
+                0x1fff0228                __bss_start__ = .
+ *(.bss)
+ .bss           0x1fff0228       0x1c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtbegin.o
+ *(.bss*)
+ .bss.s_dspiSlaveEdmaPrivateHandle.8448.4619
+                0x1fff0244       0x10 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .bss.dspiEdmaSlaveRxHandle.4613
+                0x1fff0254       0x18 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .bss.available_data
+                0x1fff026c        0x4 /tmp/ccjQGYpK.ltrans0.ltrans.o
+                0x1fff026c                available_data
+ .bss.registers
+                0x1fff0270      0x100 /tmp/ccjQGYpK.ltrans0.ltrans.o
+                0x1fff0270                registers
+ .bss.can_regs.4892
+                0x1fff0370       0xd8 /tmp/ccjQGYpK.ltrans0.ltrans.o
+                0x1fff0370                can_regs.4892
+ .bss.slaveTxData.5229.4617
+                0x1fff0448      0x100 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .bss.spi_handle.5222.4612
+                0x1fff0548       0x2c /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .bss.g_dspi_edma_s_handle
+                0x1fff0574       0x38 /tmp/ccjQGYpK.ltrans0.ltrans.o
+                0x1fff0574                g_dspi_edma_s_handle
+ .bss.slaveRxData.5225.4582
+                0x1fff05ac      0x100 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .bss.adc_data  0x1fff06ac       0x10 /tmp/ccjQGYpK.ltrans0.ltrans.o
+                0x1fff06ac                adc_data
+ .bss.data_buffer.4896
+                0x1fff06bc     0x1a00 /tmp/ccjQGYpK.ltrans0.ltrans.o
+                0x1fff06bc                data_buffer.4896
+ .bss.dspiEdmaSlaveTxHandle.4614
+                0x1fff20bc       0x18 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .bss.spi2_slaveConfig.5223.4615
+                0x1fff20d4       0x10 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .bss.xDelayedTaskList2.6261.4515
+                0x1fff20e4       0x14 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .bss.xMinimumEverFreeBytesRemaining.5465.4491
+                0x1fff20f8        0x4 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .bss.pxEnd.5464.4490
+                0x1fff20fc        0x4 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .bss.xStart.5463.4517
+                0x1fff2100        0x8 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .bss.uxTaskNumber.6270.4497
+                0x1fff2108        0x4 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .bss.ucHeap.5460.4518
+                0x1fff210c     0x2800 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .bss.xDelayedTaskList1.6262.4514
+                0x1fff490c       0x14 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .bss.xFreeBytesRemaining.5466
+                0x1fff4920        0x4 /tmp/ccjQGYpK.ltrans3.ltrans.o
+                0x1fff4920                xFreeBytesRemaining.5466
+ .bss.xBlockAllocatedBit.5467
+                0x1fff4924        0x4 /tmp/ccjQGYpK.ltrans3.ltrans.o
+                0x1fff4924                xBlockAllocatedBit.5467
+ .bss.xLastTime.5308.6483.4243
+                0x1fff4928        0x4 /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .bss.xTasksWaitingTermination.6259
+                0x1fff492c       0x14 /tmp/ccjQGYpK.ltrans4.ltrans.o
+                0x1fff492c                xTasksWaitingTermination.6259
+ .bss.uxDeletedTasksWaitingCleanUp.6275.4205
+                0x1fff4940        0x4 /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .bss.uxCurrentNumberOfTasks.6267
+                0x1fff4944        0x4 /tmp/ccjQGYpK.ltrans4.ltrans.o
+                0x1fff4944                uxCurrentNumberOfTasks.6267
+ .bss.xSuspendedTaskList.6258
+                0x1fff4948       0x14 /tmp/ccjQGYpK.ltrans4.ltrans.o
+                0x1fff4948                xSuspendedTaskList.6258
+ .bss.xPendingReadyList.6260
+                0x1fff495c       0x14 /tmp/ccjQGYpK.ltrans4.ltrans.o
+                0x1fff495c                xPendingReadyList.6260
+ .bss.pxDelayedTaskList.6265
+                0x1fff4970        0x4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff4970                pxDelayedTaskList.6265
+ .bss.s_dspiMasterIsr.8014.4265
+                0x1fff4974        0x4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .bss.pxOverflowDelayedTaskList.6266
+                0x1fff4978        0x4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff4978                pxOverflowDelayedTaskList.6266
+ .bss.uxSchedulerSuspended.6274
+                0x1fff497c        0x4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff497c                uxSchedulerSuspended.6274
+ .bss.uxTopReadyPriority.6271
+                0x1fff4980        0x4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff4980                uxTopReadyPriority.6271
+ .bss.xTickCount.6273
+                0x1fff4984        0x4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff4984                xTickCount.6273
+ .bss.xNextTaskUnblockTime.6272
+                0x1fff4988        0x4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff4988                xNextTaskUnblockTime.6272
+ .bss.g_dspiHandle.8029
+                0x1fff498c        0xc /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff498c                g_dspiHandle.8029
+ .bss.uxPendedTicks.6277
+                0x1fff4998        0x4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff4998                uxPendedTicks.6277
+ .bss.xYieldPending.6278
+                0x1fff499c        0x4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff499c                xYieldPending.6278
+ .bss.s_dspiSlaveIsr.8016
+                0x1fff49a0        0x4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff49a0                s_dspiSlaveIsr.8016
+ .bss.pxCurrentTCB
+                0x1fff49a4        0x4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff49a4                pxCurrentTCB
+ .bss.xNumOfOverflows.6276
+                0x1fff49a8        0x4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff49a8                xNumOfOverflows.6276
+ .bss.pxReadyTasksLists.6264
+                0x1fff49ac       0x64 /tmp/ccjQGYpK.ltrans5.ltrans.o
+                0x1fff49ac                pxReadyTasksLists.6264
+ .bss.pxCurrentTimerList.6481
+                0x1fff4a10        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x1fff4a10                pxCurrentTimerList.6481
+ .bss.can1_task_handle.4418
+                0x1fff4a14        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .bss.adc_task_handle.4420
+                0x1fff4a18        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .bss.can_tx_notify_task_handle
+                0x1fff4a1c        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x1fff4a1c                can_tx_notify_task_handle
+ .bss.xSchedulerRunning.6269
+                0x1fff4a20        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x1fff4a20                xSchedulerRunning.6269
+ .bss.xQueueRegistry.4402
+                0x1fff4a24       0x40 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .bss.xTimerTaskHandle.6479.4428
+                0x1fff4a64        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .bss.can0_task_handle.4417
+                0x1fff4a68        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .bss.ulMaxPRIGROUPValue.5525
+                0x1fff4a6c        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x1fff4a6c                ulMaxPRIGROUPValue.5525
+ .bss.tsc_task_handle.4421
+                0x1fff4a70        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .bss.xIdleTaskHandle.6263.4422
+                0x1fff4a74        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .bss.xActiveTimerList1.6478.4429
+                0x1fff4a78       0x14 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .bss.s_debugConsole.4155
+                0x1fff4a8c       0x10 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x1fff4a8c                s_debugConsole.4155
+ .bss.xActiveTimerList2.6477.4430
+                0x1fff4a9c       0x14 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .bss.xTimerQueue.6480
+                0x1fff4ab0        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x1fff4ab0                xTimerQueue.6480
+ .bss.spi_task_handle.4416
+                0x1fff4ab4        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .bss.pxOverflowTimerList.6482
+                0x1fff4ab8        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x1fff4ab8                pxOverflowTimerList.6482
+ .bss.g_xtal0Freq
+                0x1fff4abc        0x4 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x1fff4abc                g_xtal0Freq
+ .bss.ucMaxSysCallPriority.5522
+                0x1fff4ac0        0x1 /tmp/ccjQGYpK.ltrans7.ltrans.o
+                0x1fff4ac0                ucMaxSysCallPriority.5522
+ *fill*         0x1fff4ac1        0x3 
+ .bss.g_xtal32Freq
+                0x1fff4ac4        0x4 /tmp/ccjQGYpK.ltrans9.ltrans.o
+                0x1fff4ac4                g_xtal32Freq
+ .bss.s_uartIsr.13362.4280
+                0x1fff4ac8        0x4 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .bss.s_EDMAHandle.9052
+                0x1fff4acc       0x40 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x1fff4acc                s_EDMAHandle.9052
+ .bss.s_flexcanIsr.10068
+                0x1fff4b0c        0x4 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x1fff4b0c                s_flexcanIsr.10068
+ .bss.s_i2cMasterIsr.10724.4479
+                0x1fff4b10        0x4 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .bss.s_i2cSlaveIsr.10726.4481
+                0x1fff4b14        0x4 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .bss.s_flexcanHandle.10067
+                0x1fff4b18        0x8 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                0x1fff4b18                s_flexcanHandle.10067
+ *(COMMON)
+                0x1fff4b20                . = ALIGN (0x4)
+                0x1fff4b20                __bss_end__ = .
+                0x1fff4b20                __END_BSS = .
+
+.heap           0x20000000      0x400
+                0x20000000                . = ALIGN (0x8)
+                0x20000000                __end__ = .
+                0x20000000                PROVIDE (end, .)
+                0x20000000                __HeapBase = .
+                0x20000400                . = (. + HEAP_SIZE)
+ *fill*         0x20000000      0x400 
+                0x20000400                __HeapLimit = .
+                0x20000400                __heap_limit = .
+
+.stack          0x20000400      0x400
+                0x20000400                . = ALIGN (0x8)
+                0x20000800                . = (. + STACK_SIZE)
+ *fill*         0x20000400      0x400 
+                0x20010000                __StackTop = (ORIGIN (m_data_2) + 0x10000)
+                0x2000fc00                __StackLimit = (__StackTop - STACK_SIZE)
+                0x20010000                PROVIDE (__stack, __StackTop)
+
+.ARM.attributes
+                0x00000000       0x2a
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtbegin.o
+ .ARM.attributes
+                0x0000004c       0x1c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/crt0.o
+ .ARM.attributes
+                0x00000068       0x31 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .ARM.attributes
+                0x00000099       0x31 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .ARM.attributes
+                0x000000ca       0x31 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .ARM.attributes
+                0x000000fb       0x31 /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .ARM.attributes
+                0x0000012c       0x31 /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .ARM.attributes
+                0x0000015d       0x31 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .ARM.attributes
+                0x0000018e       0x31 /tmp/ccjQGYpK.ltrans6.ltrans.o
+ .ARM.attributes
+                0x000001bf       0x31 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .ARM.attributes
+                0x000001f0       0x31 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .ARM.attributes
+                0x00000221       0x31 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .ARM.attributes
+                0x00000252       0x31 /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .ARM.attributes
+                0x00000283       0x31 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .ARM.attributes
+                0x000002b4       0x2e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000002e2       0x2e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000310       0x1b ./startup/startup_MK20D10.o
+ .ARM.attributes
+                0x0000032b       0x2e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000359       0x2e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000387       0x2e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-init.o)
+ .ARM.attributes
+                0x000003b5       0x2e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000003e3       0x2e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000411       0x2e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtend.o
+ .ARM.attributes
+                0x0000043f       0x1e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/crtn.o
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data_2 overflowed with stack and heap)
+OUTPUT(freertos-toradex.elf elf32-littlearm)
+
+.debug_info     0x00000000    0x19dbb
+ .debug_info    0x00000000     0x414b /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .debug_info    0x0000414b     0x30ab /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .debug_info    0x000071f6     0x2b2e /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .debug_info    0x00009d24     0x1669 /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .debug_info    0x0000b38d     0x1461 /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .debug_info    0x0000c7ee     0x1b26 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .debug_info    0x0000e314     0x163b /tmp/ccjQGYpK.ltrans6.ltrans.o
+ .debug_info    0x0000f94f     0x29b0 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .debug_info    0x000122ff     0x3132 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .debug_info    0x00015431     0x1a4c /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .debug_info    0x00016e7d     0x14da /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .debug_info    0x00018357     0x19ed /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .debug_info    0x00019d44       0x77 ./startup/startup_MK20D10.o
+
+.debug_abbrev   0x00000000     0x382e
+ .debug_abbrev  0x00000000      0x5ab /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .debug_abbrev  0x000005ab      0x66f /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .debug_abbrev  0x00000c1a      0x585 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .debug_abbrev  0x0000119f      0x380 /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .debug_abbrev  0x0000151f      0x459 /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .debug_abbrev  0x00001978      0x3f4 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .debug_abbrev  0x00001d6c      0x3ff /tmp/ccjQGYpK.ltrans6.ltrans.o
+ .debug_abbrev  0x0000216b      0x51e /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .debug_abbrev  0x00002689      0x55f /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .debug_abbrev  0x00002be8      0x49b /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .debug_abbrev  0x00003083      0x45c /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .debug_abbrev  0x000034df      0x33b /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .debug_abbrev  0x0000381a       0x14 ./startup/startup_MK20D10.o
+
+.debug_loc      0x00000000     0xb13c
+ .debug_loc     0x00000000     0x1808 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .debug_loc     0x00001808     0x1c56 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .debug_loc     0x0000345e     0x1006 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .debug_loc     0x00004464      0xc1e /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .debug_loc     0x00005082      0x70f /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .debug_loc     0x00005791      0xb45 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .debug_loc     0x000062d6     0x17eb /tmp/ccjQGYpK.ltrans6.ltrans.o
+ .debug_loc     0x00007ac1      0xc71 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .debug_loc     0x00008732      0xe98 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .debug_loc     0x000095ca      0x9c8 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .debug_loc     0x00009f92      0xcb8 /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .debug_loc     0x0000ac4a      0x4f2 /tmp/ccjQGYpK.ltrans11.ltrans.o
+
+.debug_aranges  0x00000000      0x4f8
+ .debug_aranges
+                0x00000000       0x20 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000020      0x118 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .debug_aranges
+                0x00000138       0x50 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .debug_aranges
+                0x00000188       0x28 /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .debug_aranges
+                0x000001b0       0x38 /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .debug_aranges
+                0x000001e8       0x90 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .debug_aranges
+                0x00000278       0x38 /tmp/ccjQGYpK.ltrans6.ltrans.o
+ .debug_aranges
+                0x000002b0       0x30 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .debug_aranges
+                0x000002e0       0xe0 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .debug_aranges
+                0x000003c0       0x38 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .debug_aranges
+                0x000003f8       0x30 /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .debug_aranges
+                0x00000428       0xb0 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .debug_aranges
+                0x000004d8       0x20 ./startup/startup_MK20D10.o
+
+.debug_ranges   0x00000000     0x3318
+ .debug_ranges  0x00000000      0x8e8 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .debug_ranges  0x000008e8      0x4d0 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .debug_ranges  0x00000db8      0x640 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .debug_ranges  0x000013f8      0x430 /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .debug_ranges  0x00001828      0x3d8 /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .debug_ranges  0x00001c00      0x338 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .debug_ranges  0x00001f38      0x3c0 /tmp/ccjQGYpK.ltrans6.ltrans.o
+ .debug_ranges  0x000022f8      0x5c0 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .debug_ranges  0x000028b8      0x300 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .debug_ranges  0x00002bb8      0x178 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .debug_ranges  0x00002d30      0x3f8 /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .debug_ranges  0x00003128      0x1f0 /tmp/ccjQGYpK.ltrans11.ltrans.o
+
+.debug_line     0x00000000     0x55d4
+ .debug_line    0x00000000      0xa65 /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .debug_line    0x00000a65      0xccf /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .debug_line    0x00001734      0x63b /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .debug_line    0x00001d6f      0x59b /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .debug_line    0x0000230a      0x766 /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .debug_line    0x00002a70      0x5f6 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .debug_line    0x00003066      0x689 /tmp/ccjQGYpK.ltrans6.ltrans.o
+ .debug_line    0x000036ef      0x7e0 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .debug_line    0x00003ecf      0x735 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .debug_line    0x00004604      0x3a9 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .debug_line    0x000049ad      0x66b /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .debug_line    0x00005018      0x452 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .debug_line    0x0000546a      0x16a ./startup/startup_MK20D10.o
+
+.debug_str      0x00000000     0x6956
+ .debug_str     0x00000000     0x2429 /tmp/ccjQGYpK.ltrans0.ltrans.o
+                               0x256c (size before relaxing)
+ .debug_str     0x00002429      0xe3f /tmp/ccjQGYpK.ltrans1.ltrans.o
+                               0x13e1 (size before relaxing)
+ .debug_str     0x00003268      0xc0c /tmp/ccjQGYpK.ltrans2.ltrans.o
+                               0x1614 (size before relaxing)
+ .debug_str     0x00003e74      0x571 /tmp/ccjQGYpK.ltrans3.ltrans.o
+                                0xc19 (size before relaxing)
+ .debug_str     0x000043e5      0x224 /tmp/ccjQGYpK.ltrans4.ltrans.o
+                                0xa29 (size before relaxing)
+ .debug_str     0x00004609      0x53f /tmp/ccjQGYpK.ltrans5.ltrans.o
+                                0xd12 (size before relaxing)
+ .debug_str     0x00004b48      0x161 /tmp/ccjQGYpK.ltrans6.ltrans.o
+                                0xaec (size before relaxing)
+ .debug_str     0x00004ca9      0xaed /tmp/ccjQGYpK.ltrans7.ltrans.o
+                               0x1a47 (size before relaxing)
+ .debug_str     0x00005796      0x62f /tmp/ccjQGYpK.ltrans8.ltrans.o
+                               0x1de5 (size before relaxing)
+ .debug_str     0x00005dc5      0x4ee /tmp/ccjQGYpK.ltrans9.ltrans.o
+                               0x1563 (size before relaxing)
+ .debug_str     0x000062b3      0x1f2 /tmp/ccjQGYpK.ltrans10.ltrans.o
+                                0x883 (size before relaxing)
+ .debug_str     0x000064a5      0x4b1 /tmp/ccjQGYpK.ltrans11.ltrans.o
+                                0xb4a (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 /tmp/ccjQGYpK.ltrans0.ltrans.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .comment       0x00000000       0x71 /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .comment       0x00000000       0x71 /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .comment       0x00000000       0x71 /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .comment       0x00000000       0x71 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .comment       0x00000000       0x71 /tmp/ccjQGYpK.ltrans6.ltrans.o
+ .comment       0x00000000       0x71 /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .comment       0x00000000       0x71 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .comment       0x00000000       0x71 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .comment       0x00000000       0x71 /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .comment       0x00000000       0x71 /tmp/ccjQGYpK.ltrans11.ltrans.o
+
+.debug_frame    0x00000000      0xd98
+ .debug_frame   0x00000000       0x2c /tmp/ccjQGYpK.ltrans0.ltrans.o
+ .debug_frame   0x0000002c      0x30c /tmp/ccjQGYpK.ltrans1.ltrans.o
+ .debug_frame   0x00000338       0xcc /tmp/ccjQGYpK.ltrans2.ltrans.o
+ .debug_frame   0x00000404       0x3c /tmp/ccjQGYpK.ltrans3.ltrans.o
+ .debug_frame   0x00000440       0x8c /tmp/ccjQGYpK.ltrans4.ltrans.o
+ .debug_frame   0x000004cc      0x1a8 /tmp/ccjQGYpK.ltrans5.ltrans.o
+ .debug_frame   0x00000674       0xa8 /tmp/ccjQGYpK.ltrans6.ltrans.o
+ .debug_frame   0x0000071c       0x4c /tmp/ccjQGYpK.ltrans7.ltrans.o
+ .debug_frame   0x00000768      0x284 /tmp/ccjQGYpK.ltrans8.ltrans.o
+ .debug_frame   0x000009ec       0x74 /tmp/ccjQGYpK.ltrans9.ltrans.o
+ .debug_frame   0x00000a60       0x6c /tmp/ccjQGYpK.ltrans10.ltrans.o
+ .debug_frame   0x00000acc      0x1f0 /tmp/ccjQGYpK.ltrans11.ltrans.o
+ .debug_frame   0x00000cbc       0x28 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000ce4       0x20 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-strlen.o)
+ .debug_frame   0x00000d04       0x28 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-exit.o)
+ .debug_frame   0x00000d2c       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-init.o)
+ .debug_frame   0x00000d58       0x20 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libg_s.a(lib_a-memset.o)
+ .debug_frame   0x00000d78       0x20 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m/libnosys.a(_exit.o)
